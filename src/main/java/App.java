@@ -11,10 +11,10 @@ public class App {
         HelloWorld bean2 =
                 (HelloWorld) applicationContext.getBean("helloworld");
 
-        Cat bean3 = (Cat) applicationContext.getBean("cat");
-        Cat bean4 = (Cat) applicationContext.getBean("cat");
+        Cat cat1 = (Cat) applicationContext.getBean("cat");
+        Cat cat2 = (Cat) applicationContext.getBean("cat");
 
-        System.out.println(bean1.equals(bean2));
-        System.out.println(bean3.equals(bean4));
+        System.out.println("Первая пара - " + (bean1 == bean2));
+        System.out.println("Вторая пара - " + (cat1 == cat2));
     }
 }
