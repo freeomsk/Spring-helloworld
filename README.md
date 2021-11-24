@@ -1,4 +1,4 @@
-## JM preproject. Практическая задача 2.1.2
+## Spring
 
 ### Условие:
 Склонируйте заготовку проекта по ссылке https://github.com/jm-program/spring-helloworld.
